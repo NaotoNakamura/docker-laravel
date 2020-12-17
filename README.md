@@ -17,6 +17,9 @@ $ docker-compose up -d --build
 ```sh
 $ docker-compose exec app bash
 $ composer create-project --prefer-dist "laravel/laravel=8.*" .
+$ composer install
+$ cp .env.example .env
+$ php artisan key:generate
 ```
 
 ## ``backend/.env`` のDB接続設定を修正
