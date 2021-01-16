@@ -33,6 +33,9 @@ $ docker-compose exec app bash
 $ php artisan migrate
 ```
 
+## localhost表示
+http://localhost:10080/
+
 ## コンテナ終了
 
 ```sh
