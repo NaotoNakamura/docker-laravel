@@ -3,7 +3,7 @@
 ## リポジトリのクローン
 
 ```sh
-$ git clone https://github.com/NaotoNakamura/docker-larabel.git
+$ git clone https://github.com/NaotoNakamura/docker-laravel.git
 ```
 
 ## コンテナ起動
