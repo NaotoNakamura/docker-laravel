@@ -30,6 +30,7 @@ $ docker-compose exec app bash
 
 ```sh
 $ docker-compose exec db bash
+# mysql -u root -p
 # create database DB名;
 # CREATE USER 'ユーザー名'@'%' IDENTIFIED BY 'パスワード';
 # GRANT ALL PRIVILEGES ON `DB名`.* TO `ユーザー名`@`%`;
